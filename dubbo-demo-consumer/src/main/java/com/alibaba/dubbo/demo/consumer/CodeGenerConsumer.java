@@ -12,6 +12,7 @@ public class CodeGenerConsumer {
     public static void main(String[] args) {
         // test
         int i = 0;
+        int b = 0;
         while (true) {
             ApplicationConfig applicationConfig = new ApplicationConfig();
             applicationConfig.setName("demo-consumer");
