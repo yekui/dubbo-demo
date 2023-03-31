@@ -11,6 +11,7 @@ public class CodeGenerConsumer {
 
     public static void main(String[] args) {
         // test
+        // test2
         int i = 0;
         while (true) {
             ApplicationConfig applicationConfig = new ApplicationConfig();
