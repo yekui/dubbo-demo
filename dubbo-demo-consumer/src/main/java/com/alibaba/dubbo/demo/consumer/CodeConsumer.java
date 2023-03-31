@@ -34,5 +34,18 @@ public class CodeConsumer {
                 System.out.print(e.getMessage());
             }
         }
+
+        while (true) {
+            try {
+                DemoService hello = referenceConfig.get();
+                String result = hello.sayHello("aa");
+                System.out.println(result);
+                i++;
+                System.out.println("i = : " + i);
+                Thread.sleep(3 * 1000);
+            } catch (Exception e) {
+                System.out.print(e.getMessage());
+            }
+        }
     }
 }
