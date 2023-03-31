@@ -30,6 +30,7 @@ public class DemoServiceImpl implements DemoService {
 
     public String sayHello(String name) throws Exception{
         int i = 2;
+        int a = 0;
       //  Random r = new Random();
         try {
        //     int random = r.nextInt(i);
